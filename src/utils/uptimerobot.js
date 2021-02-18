@@ -67,6 +67,7 @@ export const GetMonitors = async (apikey, days) => {
       }
     });
 
+    daily.reverse();
     let status = 'unknow';
     if (monitor.status === 2) status = 'ok';
     if (monitor.status === 9) status = 'down';

@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div id="header">
       <div className="container">
-        <a className="logo" href={SiteUrl}>{SiteName}</a>
+        <p className="logo">{SiteName}</p>
         <div className="navi">
           {Navi.map((item, index) => (
             <Link key={index} text={item.text} to={item.url} />

@@ -7,10 +7,6 @@ const App = () => {
 
   const { ApiKeys, SiteName } = window.Config;
 
-  useEffect(() => {
-    window.document.title = SiteName;
-  }, [SiteName]);
-
   return (
     <>
       <Header />
