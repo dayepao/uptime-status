@@ -36,7 +36,7 @@ a {
 
 #header {
   background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%);
-  height: 50vh;
+  height: 500px;
 }
 
 #header .container {
@@ -76,7 +76,7 @@ a {
   background: #fff;
   border-radius: 15px;
   overflow: hidden;
-  margin-top: calc(-200px);
+  margin-top: calc(-150px);
   padding: 0;
   box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
 }
