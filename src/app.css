@@ -47,23 +47,23 @@ a {
 }
 
 #header .logo {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 600;
   color: #fff;
-  padding-top: 10vh;
+  padding-top: 11vh;
 }
 
 #header .navi {
-  font-size: 20px;
-  font-weight: 400;
-  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 30px;
 }
 
 #header .navi a {
   color: #fff;
   opacity: .9;
   transition: all ease .3s;
-  margin-right: 15px;
+  margin-right: 25px;
 }
 
 #header .navi a:hover {
@@ -76,7 +76,7 @@ a {
   background: #fff;
   border-radius: 15px;
   overflow: hidden;
-  margin-top: calc(-150px);
+  margin-top: calc(-200px);
   padding: 0;
   box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
 }

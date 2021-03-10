@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div id="footer">
       <div className="container">
-        <p>Powered By <Link to="https://uptimerobot.com/" text="UptimeRobot" /> & <Link to="https://github.com/yb/uptime-status" text="uptime-status" /></p>
+        <p>Powered By <Link to="https://uptimerobot.com/" text="UptimeRobot" /> & <Link to="https://github.com/yb/uptime-status" text="uptime-status" /> & <Link to="https://developers.cloudflare.com/pages/" text="Cloudflare Pages" /></p>
         <p>Theme <Link to="https://status.solstice23.top/" text="solstice23" /></p>
       </div>
     </div>
